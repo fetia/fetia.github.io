@@ -20,7 +20,7 @@ My work focuses on **AI-native orchestration**, **programmable networks**, and *
 - Graph-based reasoning for adaptive network management  
 - Energy-aware and cross-domain control plane design  
 
-[→ Learn more](/research.md/)
+[→ Learn more](/research/)
 
 ---
 
