@@ -3,6 +3,7 @@ layout: page
 title: "Dr. Fetia Bannour"
 subtitle: "Maîtresse de conférences – ENSIIE | Researcher – SAMOVAR, Télécom SudParis / Institut Polytechnique de Paris"
 image: /assets/img/fetia.jpg
+permalink: /
 ---
 
 # Welcome
