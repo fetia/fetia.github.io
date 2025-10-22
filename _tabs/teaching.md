@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Teaching"
-icon: fas fa-chalkboard-teacher
+permalink: /teaching/
 order: 4
 ---
 
