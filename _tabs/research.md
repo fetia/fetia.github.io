@@ -44,3 +44,19 @@ My work combines:
 ## Research Impact
 
 This research contributes to the evolution of programmable networking toward **autonomous, explainable, and sustainable infrastructures** capable of adapting to diverse operational goals and deployment contexts.
+
+---
+
+## Community and Reviewing Activities
+
+Beyond research, I contribute to the scientific community through editorial and reviewing work.
+
+### Reviewing & Editorial Service
+- Reviewer for **IEEE Communications Surveys & Tutorials**, **IEEE Transactions on Network and Service Management**, and **Elsevier Computer Networks**.  
+- Technical Program Committee (TPC) member for **IEEE NetSoft**, **IEEE ICC**, and **IEEE GLOBECOM** conferences.  
+- External examiner and reviewer for MSc and PhD theses in computer networking and distributed systems.
+
+### Professional Engagement
+- Member of the **IEEE Communications Society (ComSoc)**.  
+- Active participant in the **Network Softwarization (NetSoft)** and **SDN/NFV** research communities.  
+- Contributor to initiatives promoting **AI-native networking and network intelligence** in academic and industrial contexts.
