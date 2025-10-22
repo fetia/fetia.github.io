@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Research"
-icon: fas fa-flask
+permalink: /research/
 order: 2
 ---
 
