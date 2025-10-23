@@ -245,5 +245,10 @@ exclude:
   - index.html
 
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: with-custom-css
 
 
