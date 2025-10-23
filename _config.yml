@@ -1,9 +1,8 @@
-# The Site Configuration
 
 # Import the theme
-remote_theme: cotes2020/jekyll-theme-chirpy
 # The Site Configuration
-remote_theme: cotes2020/jekyll-theme-chirpy@v6.3.1
+remote_theme: cotes2020/jekyll-theme-chirpy@v7.3.2
+
 
 plugins:
   - jekyll-feed
