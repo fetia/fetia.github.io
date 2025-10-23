@@ -1,5 +1,5 @@
 ---
-layout: with-custom-css
+layout: page
 title: "Welcome"
 permalink: /
 ---
