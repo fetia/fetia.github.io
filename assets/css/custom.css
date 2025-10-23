@@ -1,79 +1,115 @@
-/* Softer background and link colors */
+/* ===========================================================
+   Custom design overrides for Dr. Fetia Bannour
+   ENSIIE / SAMOVAR — subtle academic layout
+   =========================================================== */
+
+/* --- Global palette ------------------------------------------------------- */
 :root {
-  --global-bg-color: #fafafa;
-  --global-text-color: #222;
-  --link-color: #004aad;   /* ENSIIE blue */
-  --sidebar-bg: #f0f2f5;
+  --accent-blue: #004aad;   /* ENSIIE blue */
+  --accent-grey: #54565a;   /* SAMOVAR grey */
+  --global-bg-color: #f5f7fb;
+  --text-color: #222;
 }
 
-/* Use a more elegant font stack */
-body {
-  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+/* --- Overall page background --------------------------------------------- */
+html, body {
+  background-color: var(--global-bg-color) !important;
+  color: var(--text-color);
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
 }
 
-/* Sidebar name style */
-.site-title {
-  font-weight: 600;
-  font-size: 1.4rem;
-  color: #004aad;
-}
-
-/* Round the avatar */
-.site-avatar img {
-  border-radius: 50%;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-}
-
-body {
-  background-color: #f6f7fb;   /* light grey-blue background */
-}
-
-.main {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 6px rgba(0,0,0,.05);
-  margin: 1.5rem auto;
-  max-width: 1200px;
-  padding: 1rem 2rem;
-}
-
-/* --- Wider, centered "card" layout --- */
-
-/* --- Wider, centered "card" layout --- */
-
-html,
-body {
-  background-color: #f4f6fa !important;      /* soft background visible on the right */
-}
-
-/* The outer container that holds sidebar + main */
-.layout {
-  max-width: 1600px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  background: transparent !important;
-}
-
-/* The right-hand content area */
-.main {
-  background: #fff !important;               /* white card */
+/* --- Main content card ---------------------------------------------------- */
+#main-wrapper, .main, .page {
+  background: #fff !important;
   border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.06);
-  margin: 1.5rem 2rem;
-  padding: 2rem 3rem;
-  flex: 1;                                   /* fill remaining width */
-  max-width: 1200px;                         /* widen visible text zone */
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin: 2rem auto !important;
+  padding: 2.5rem 3rem !important;
+  max-width: 1150px !important;
 }
 
-/* Text readability tweaks */
-.page-content {
-  font-size: 1.06rem;
-  line-height: 1.65;
+/* --- Headings ------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--accent-blue);
+  font-weight: 600;
 }
 
-/* Optional: subtle border on sidebar to separate visually */
+/* --- Links --------------------------------------------------------------- */
+a {
+  color: var(--accent-blue);
+  text-decoration: none;
+  transition: color .2s, text-decoration .2s;
+}
+a:hover {
+  color: var(--accent-grey);
+  text-decoration: underline;
+}
+
+/* --- Sidebar tweaks ------------------------------------------------------ */
 .sidebar {
-  border-right: 1px solid rgba(0,0,0,0.05);
+  border-right: 1px solid rgba(0,0,0,0.07);
+  background-color: #ffffff;
+}
+.sidebar .site-title {
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+.nav-item i {
+  color: var(--accent-blue);
+  margin-right: .4em;
 }
 
+/* --- ENSIIE & SAMOVAR logos under avatar --------------------------------- */
+.sidebar-logos {
+  text-align: center;
+  margin-top: 1rem;
+}
+.sidebar-logos a {
+  display: inline-block;
+  margin: 0 .4rem;
+}
+.sidebar-logos img {
+  height: 38px;
+  opacity: 0.85;
+  filter: grayscale(10%);
+  transition: opacity .2s, transform .2s;
+}
+.sidebar-logos img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  filter: none;
+}
+
+/* --- Tables & lists ------------------------------------------------------ */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background-color: var(--accent-blue);
+  color: white;
+}
+
+/* --- Footer (optional) --------------------------------------------------- */
+footer {
+  text-align: center;
+  color: var(--accent-grey);
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+/* --- Small devices ------------------------------------------------------- */
+@media (max-width: 900px) {
+  #main-wrapper, .main, .page {
+    padding: 1.5rem 1.2rem !important;
+    margin: 1rem;
+  }
+}
