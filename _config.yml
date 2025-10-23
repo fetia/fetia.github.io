@@ -9,6 +9,7 @@ plugins:
   - jekyll-redirect-from   # allows page redirects
   - jekyll-seo-tag         # adds SEO meta tags
 
+page_excerpts: false
 
   
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
@@ -235,17 +236,10 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
-exclude:
-  - vendor/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - package.json
-  - package-lock.json
-  - README.md
-  - LICENSE
-  - _posts/0000-00-00-welcome-to-jekyll.markdown.erb
 
+exclude:
+  - _posts/
+  - index.html
 
 
 
