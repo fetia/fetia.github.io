@@ -5,7 +5,6 @@ permalink: /publications/
 order: 3
 ---
 
-## Publications
 
 This page lists a selection of my peer-reviewed journal, book, and conference publications on distributed SDN control, network intelligence, and AI-driven orchestration.  
 For the full and continuously updated list of my works, please visit  
