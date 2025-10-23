@@ -9,6 +9,7 @@ plugins:
   - jekyll-seo-tag         # adds SEO meta tags
 
 page_excerpts: false
+paginate: false
 
   
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
