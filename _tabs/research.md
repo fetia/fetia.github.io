@@ -5,7 +5,7 @@ permalink: /research/
 order: 2
 ---
 
-# Research Overview
+## Research Overview
 
 My research focuses on the design of **intelligent and adaptive control architectures** for programmable networks.  
 I study how artificial intelligence can enhance the scalability, autonomy, and efficiency of future communication infrastructures.  
