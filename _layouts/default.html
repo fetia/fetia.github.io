@@ -8,10 +8,8 @@
 
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-    {%- comment -%}  Theme’s main stylesheet  {%- endcomment -%}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    {%- comment -%}  Your custom overrides  {%- endcomment -%}
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
 
     {%- seo -%}
   </head>
