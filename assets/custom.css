@@ -39,6 +39,8 @@ body {
 
 /* --- Wider, centered "card" layout --- */
 
+/* --- Wider, centered "card" layout --- */
+
 html,
 body {
   background-color: #f4f6fa !important;      /* soft background visible on the right */
@@ -50,5 +52,29 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background: transparent !imp
+  background: transparent !important;
+}
+
+/* The right-hand content area */
+.main {
+  background: #fff !important;               /* white card */
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.06);
+  margin: 1.5rem 2rem;
+  padding: 2rem 3rem;
+  flex: 1;                                   /* fill remaining width */
+  max-width: 1200px;                         /* widen visible text zone */
+}
+
+/* Text readability tweaks */
+.page-content {
+  font-size: 1.06rem;
+  line-height: 1.65;
+}
+
+/* Optional: subtle border on sidebar to separate visually */
+.sidebar {
+  border-right: 1px solid rgba(0,0,0,0.05);
+}
+
 
