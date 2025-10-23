@@ -1,71 +1,29 @@
-/* === Fetia Bannour – ENSIIE / SAMOVAR styling ==================== */
-
-/* 1. Global colours and fonts */
-:root {
-  --accent-blue: #004aad;  /* ENSIIE blue  */
-  --accent-grey: #54565a;  /* SAMOVAR grey */
-  --bg-light: #f5f7fb;
-}
-
+/* --- custom overrides, loaded after the theme --- */
 body {
-  background-color: var(--bg-light);
-  color: #222;
-  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.6;
+  background-color: #f5f7fb !important; /* soft grey */
 }
 
-/* 2. Content area wider and centred */
-.main {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.06);
-  margin: 1.5rem auto;
-  padding: 2rem 3rem;
-  max-width: 1150px;
+/* Accent colours and headings */
+:root {
+  --accent-blue: #004aad;
+  --accent-grey: #54565a;
 }
-
-/* 3. Sidebar colours */
-.sidebar {
-  border-right: 1px solid rgba(0,0,0,0.05);
-  background-color: #ffffff;
+h1, h2, h3, h4, h5, h6 {
+  color: var(--accent-blue) !important;
 }
-.sidebar .site-title {
-  color: var(--accent-blue);
-  font-weight: 600;
-}
-.sidebar .site-subtitle {
-  color: var(--accent-grey);
-}
-.nav-item i {
-  color: var(--accent-blue);
-  margin-right: .4em;
-}
-
-/* 4. Links & headings */
 a {
   color: var(--accent-blue);
-  text-decoration: none;
-  transition: color .2s, text-decoration .2s;
 }
 a:hover {
   color: var(--accent-grey);
-  text-decoration: underline;
-}
-h1, h2, h3, h4, h5, h6 {
-  color: var(--accent-blue);
-  font-weight: 600;
 }
 
-/* 5. Right-hand panel tweak (less empty space) */
-#panel-wrapper {
-  display: none;
-}
-
-/* 6. Responsive padding */
-@media (max-width: 900px) {
-  .main {
-    padding: 1.2rem 1rem;
-    margin: 1rem;
-  }
+/* Slightly wider content area */
+.main {
+  max-width: 1150px;
+  margin: 1.5rem auto;
+  padding: 2rem 3rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.06);
 }
