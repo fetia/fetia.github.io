@@ -1,0 +1,25 @@
+/* Softer background and link colors */
+:root {
+  --global-bg-color: #fafafa;
+  --global-text-color: #222;
+  --link-color: #004aad;   /* ENSIIE blue */
+  --sidebar-bg: #f0f2f5;
+}
+
+/* Use a more elegant font stack */
+body {
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Sidebar name style */
+.site-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #004aad;
+}
+
+/* Round the avatar */
+.site-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
