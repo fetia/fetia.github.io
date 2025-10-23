@@ -5,7 +5,8 @@ remote_theme: cotes2020/jekyll-theme-chirpy
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-remote-theme
 
   
