@@ -1,0 +1,13 @@
+---
+# Layout that keeps Chirpy's default layout and appends a CSS file
+layout: default
+---
+
+{% comment %}
+  inject your own CSS file after the theme's stylesheet
+{% endcomment %}
+{% capture extra_head %}
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+{% endcapture %}
+
+{{ content }}
