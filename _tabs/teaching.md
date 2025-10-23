@@ -5,7 +5,7 @@ permalink: /teaching/
 order: 4
 ---
 
-# Teaching at ENSIIE
+## Teaching at ENSIIE
 
 I teach and coordinate several courses at the  
 [École Nationale Supérieure d’Informatique pour l’Industrie et l’Entreprise (ENSIIE)](https://www.ensiie.fr),  
