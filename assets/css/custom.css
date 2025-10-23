@@ -2,6 +2,16 @@
    Custom style overrides for Dr. Fetia Bannour
    ENSIIE | SAMOVAR | Télécom SudParis
    =========================================================== */
+/* === widen main content area (reduce empty right side) === */
+#main-wrapper .row > main {
+  max-width: 100%;
+}
+
+#panel-wrapper {
+  display: none;          /* hide the empty right-side panel */
+}
+
+
 
 /* --- Global palette ----------------------------------------------------- */
 :root {
