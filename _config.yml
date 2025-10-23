@@ -4,7 +4,6 @@
 theme: jekyll-theme-chirpy
 
 plugins:
-  - jekyll-feed            # generates RSS/Atom feed
   - jekyll-paginate        # enables pagination (blog posts, archives)
   - jekyll-redirect-from   # allows page redirects
   - jekyll-seo-tag         # adds SEO meta tags
