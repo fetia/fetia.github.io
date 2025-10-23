@@ -3,12 +3,6 @@
 # Import the theme
 remote_theme: cotes2020/jekyll-theme-chirpy
 
-
-collections:
-  tabs:
-    output: true
-    sort_by: order
-
 defaults:
   - scope:
       path: ""
