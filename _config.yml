@@ -235,6 +235,18 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE
+  - _posts/0000-00-00-welcome-to-jekyll.markdown.erb
+
+
 
 
 
