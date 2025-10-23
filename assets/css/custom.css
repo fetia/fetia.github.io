@@ -125,3 +125,39 @@ footer {
     height: 28px;
   }
 }
+
+
+/* ===========================================================
+   Layout width adjustment — keep sidebar, widen right section
+   =========================================================== */
+
+/* Increase overall container width */
+.layout {
+  max-width: 1600px;             /* default ≈ 1200px */
+  margin: 0 auto;
+}
+
+/* Widen the main content area */
+.main {
+  flex: 1 1 auto;                /* allow it to grow */
+  max-width: 1150px;             /* default ≈ 850–900px */
+  padding: 2.2rem 3rem;
+}
+
+/* Optional: slightly reduce empty space on right edge */
+@media (min-width: 1300px) {
+  .main {
+    margin-right: 2rem;
+  }
+}
+
+/* Improve readability with a softer line length */
+.page-content {
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+/* Keep sidebar visually separated */
+.sidebar {
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+}
