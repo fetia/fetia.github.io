@@ -23,3 +23,16 @@ body {
   border-radius: 50%;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
+
+body {
+  background-color: #f6f7fb;   /* light grey-blue background */
+}
+
+.main {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,.05);
+  margin: 1.5rem auto;
+  max-width: 1200px;
+  padding: 1rem 2rem;
+}
