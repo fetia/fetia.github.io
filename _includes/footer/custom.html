@@ -1,0 +1,10 @@
+<script>
+  /* force-load custom CSS at runtime */
+  document.addEventListener("DOMContentLoaded", function () {
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "{{ '/assets/css/custom.css' | relative_url }}";
+    link.type = "text/css";
+    document.head.appendChild(link);
+  });
+</script>
