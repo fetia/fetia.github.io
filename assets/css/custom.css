@@ -1,29 +1,15 @@
-/* --- custom overrides, loaded after the theme --- */
 body {
-  background-color: #f5f7fb !important; /* soft grey */
+  background: #f5f7fb !important;
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Accent colours and headings */
-:root {
-  --accent-blue: #004aad;
-  --accent-grey: #54565a;
-}
 h1, h2, h3, h4, h5, h6 {
-  color: var(--accent-blue) !important;
+  color: #004aad !important;
 }
 a {
-  color: var(--accent-blue);
+  color: #004aad;
 }
 a:hover {
-  color: var(--accent-grey);
+  color: #54565a;
 }
 
-/* Slightly wider content area */
-.main {
-  max-width: 1150px;
-  margin: 1.5rem auto;
-  padding: 2rem 3rem;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.06);
-}
