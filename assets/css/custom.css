@@ -1,15 +1,12 @@
 body {
-  background: #f5f7fb !important;
-  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #ffebf0 !important;  /* light pink background test */
+  font-family: "Inter", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   color: #004aad !important;
 }
-a {
-  color: #004aad;
-}
-a:hover {
-  color: #54565a;
-}
 
+a {
+  color: #004aad !important;
+}
