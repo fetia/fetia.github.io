@@ -11,8 +11,6 @@ plugins:
 page_excerpts: false
 paginate: false
 
-custom_css: assets/css/custom.css?v=20251023
-
 
   
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
