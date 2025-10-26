@@ -1,7 +1,7 @@
 
 # Import the theme
 # The Site Configuration
-theme: jekyll-theme-chirpy
+theme: jekyll-theme-chirpy@7.3.1
 
 plugins:
   - jekyll-paginate        # enables pagination (blog posts, archives)
@@ -12,6 +12,7 @@ page_excerpts: false
 paginate: false
 
 custom_css: assets/css/jekyll-theme-chirpy.scss
+
 
   
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
