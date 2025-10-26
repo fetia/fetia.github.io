@@ -11,6 +11,8 @@ plugins:
 page_excerpts: false
 paginate: false
 
+custom_css: assets/css/custom.css
+
 sass:
   style: compressed
   load_paths:
