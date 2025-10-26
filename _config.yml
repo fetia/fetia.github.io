@@ -11,6 +11,7 @@ plugins:
 page_excerpts: false
 paginate: false
 
+custom_css: assets/css/jekyll-theme-chirpy.scss
 
   
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
