@@ -1,9 +1,33 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | escape }}</title>
+---
+# This is a safe replacement for Chirpy’s default layout.
+# It avoids the "ignore missing" param and loads the theme CSS then your overrides.
+---
 
-  <!-- Theme and custom CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/jekyll-theme-chirpy.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-</head>
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    {%- include_cached head.html -%}
+
+    <!-- Load the theme’s bundled CSS from the gem -->
+    <link rel="stylesheet" href="{{ '/assets/css/jekyll-theme-chirpy.css' | relative_url }}">
+
+    <!-- Load your overrides AFTER the theme CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  </head>
+
+  <body class="layout--default">
+    {%- include_cached sidebar.html -%}
+
+    <div id="main-wrapper">
+      {%- include_cached topbar.html -%}
+
+      <main class="page-content" aria-label="Content">
+        {{ content }}
+      </main>
+
+      {%- include_cached footer.html -%}
+    </div>
+
+    {%- include_cached scripts.html -%}
+  </body>
+</html>
