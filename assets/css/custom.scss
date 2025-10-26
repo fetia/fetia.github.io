@@ -5,12 +5,7 @@
 /* ----------------------------------------------------------
    Import the Chirpy theme SCSS from the gem
 ----------------------------------------------------------- */
-@import "jekyll-theme-chirpy/variables";
-@import "jekyll-theme-chirpy/mixins";
-@import "jekyll-theme-chirpy/base";
-@import "jekyll-theme-chirpy/layout";
-@import "jekyll-theme-chirpy/components";
-@import "jekyll-theme-chirpy/extend";
+@import "jekyll-theme-chirpy";
 
 /* ----------------------------------------------------------
    Custom overrides (safe area)
