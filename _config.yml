@@ -11,6 +11,11 @@ plugins:
 page_excerpts: false
 paginate: false
 
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - assets/css
 
 
 
