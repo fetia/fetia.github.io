@@ -1,14 +1,10 @@
 ---
 ---
 
-/*!
- *  Load the base Chirpy theme
- *  Then apply your custom overrides
- */
+/* @import "jekyll-theme-chirpy"; */
+/* You may skip the import and rely on theme CSS being loaded anyway */
 
-@import "jekyll-theme-chirpy";
-
-/* ---- Custom styling ---- */
+/* ---- Custom styling overrides only ---- */
 
 body {
   font-family: "Inter", sans-serif !important;
