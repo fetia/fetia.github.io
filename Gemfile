@@ -13,6 +13,7 @@ gem "jekyll-theme-chirpy", "~> 7.4.0"
 gem "jekyll-paginate"
 gem "jekyll-seo-tag"
 gem "jekyll-redirect-from"
+gem 'html-proofer'
 
 # Let GitHub Actions install all dependencies here
 group :jekyll_plugins do
