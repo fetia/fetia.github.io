@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.3.1"
 
-gem "jekyll", "~> 4.4"
+
+gem "jekyll", "~> 4.3.2"
+gem "jekyll-theme-chirpy", "~> 7.4.0"
 gem "jekyll-feed"
 gem "jekyll-paginate"
 gem "jekyll-redirect-from"
