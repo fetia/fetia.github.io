@@ -1,12 +1,13 @@
+/* assets/css/jekyll-theme-chirpy.scss */
+@use "main"  
+  {%- if jekyll.environment == 'production' -%}  
+    .bundle  
+  {%- endif -%};
+
+/* Your custom overrides below */
 body {
-  background: #ffebf0 !important;  /* light pink background test */
-  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;   /* example */
 }
-
-h1, h2, h3 {
-  color: #004aad !important;
-}
-
-a {
-  color: #004aad !important;
+.site-title {
+  color: #e91e63; /* pink example */
 }
