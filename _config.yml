@@ -2,6 +2,9 @@
 # Import the theme
 # The Site Configuration
 theme: jekyll-theme-chirpy
+plugins:
+  - jekyll-include-cache
+
 
 plugins:
   - jekyll-paginate        # enables pagination (blog posts, archives)
