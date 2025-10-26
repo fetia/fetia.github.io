@@ -1,21 +1,20 @@
 ---
-# Only front matter — DO NOT REMOVE
 ---
 
-/* Import the core Chirpy styles */
-@use "jekyll-theme-chirpy" as *;
+/* Import the main Chirpy styles */
+@import "jekyll-theme-chirpy";
 
 /* -----------------------------------------
-   Custom Styling Overrides (safe section)
+   Custom overrides start here
 ------------------------------------------ */
 
 body {
-  font-family: "Inter", sans-serif !important;
   background-color: #f7f9fc !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 h1, h2, h3 {
-  color: #004aad !important; /* ENSIIE blue */
+  color: #004aad !important;
 }
 
 a {
@@ -23,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #003080 !important;
+  color: #002f6c !important;
 }
 
 #sidebar {
