@@ -3,17 +3,16 @@
 
 /*!
  *  Load the base Chirpy theme
+ *  Then apply your custom overrides
  */
 
 @import "jekyll-theme-chirpy";
 
-/* ==============================
-   Custom styling overrides
-   ============================== */
+/* ---- Custom styling ---- */
 
 body {
   font-family: "Inter", sans-serif !important;
-  background: #f5f7fb !important;
+  background-color: #f5f7fb !important;
 }
 
 h1, h2, h3 {
@@ -21,9 +20,9 @@ h1, h2, h3 {
 }
 
 a {
-  color: #004aad;
+  color: #004aad !important;
 }
 
 a:hover {
-  color: #54565a;
+  color: #54565a !important;
 }
