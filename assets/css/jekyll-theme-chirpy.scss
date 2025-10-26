@@ -1,13 +1,25 @@
-/* assets/css/jekyll-theme-chirpy.scss */
-@use "main"  
-  {%- if jekyll.environment == 'production' -%}  
-    .bundle  
-  {%- endif -%};
+---
+# Only the theme uses this front matter to trigger SCSS processing.
+---
 
-/* Your custom overrides below */
+@import "jekyll-theme-chirpy"; // import the base theme styles
+
+/* ============================
+   Your custom overrides below
+============================= */
 body {
-  font-family: "Lato", sans-serif;   /* example */
+  font-family: "Inter", sans-serif !important;
+  background-color: #f5f7fb !important;
 }
-.site-title {
-  color: #e91e63; /* pink example */
+
+h1, h2, h3 {
+  color: #004aad !important;   /* ENSIIE blue */
+}
+
+a {
+  color: #004aad;
+}
+
+a:hover {
+  color: #54565a;              /* SAMOVAR grey */
 }
