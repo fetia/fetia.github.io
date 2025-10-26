@@ -1,11 +1,10 @@
 <!doctype html>
-<html lang="{{ site.lang | default: 'en' }}">
+<html lang="en">
   <head>
-    {% include head.html %}
+    <meta charset="utf-8">
+    <title>{{ page.title | escape }}</title>
   </head>
   <body>
-    <div id="page-wrapper">
-      {{ content }}
-    </div>
+    {{ content }}
   </body>
 </html>
