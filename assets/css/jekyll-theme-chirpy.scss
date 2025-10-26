@@ -1,18 +1,19 @@
 ---
-# Jekyll front matter is required
 ---
+// This is the Chirpy main stylesheet loader
+// DO NOT add text or front-matter comments above the second --- lines
 
-// Import Chirpy theme main stylesheet
 @import "jekyll-theme-chirpy";
 
-/* --- Custom overrides --- */
+/* ========== Custom overrides ========== */
+
 body {
   font-family: "Inter", sans-serif !important;
-  background: #f5f7fb !important;
+  background-color: #f5f7fb !important;
 }
 
 h1, h2, h3 {
-  color: #004aad !important;
+  color: #004aad !important; /* ENSIIE blue */
 }
 
 a {
@@ -20,5 +21,5 @@ a {
 }
 
 a:hover {
-  color: #54565a;
+  color: #54565a; /* SAMOVAR gray */
 }
