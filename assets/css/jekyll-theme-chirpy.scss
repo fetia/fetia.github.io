@@ -1,17 +1,18 @@
 ---
-# front matter is required so Jekyll processes this file
+# Jekyll front matter is required
 ---
 
-@use "jekyll-theme-chirpy" as *;
+// Import Chirpy theme main stylesheet
+@import "jekyll-theme-chirpy";
 
-/* --- your custom overrides --- */
+/* --- Custom overrides --- */
 body {
   font-family: "Inter", sans-serif !important;
   background: #f5f7fb !important;
 }
 
 h1, h2, h3 {
-  color: #004aad !important; /* ENSIIE blue */
+  color: #004aad !important;
 }
 
 a {
@@ -19,5 +20,5 @@ a {
 }
 
 a:hover {
-  color: #54565a; /* SAMOVAR gray */
+  color: #54565a;
 }
