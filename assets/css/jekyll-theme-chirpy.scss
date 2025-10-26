@@ -1,19 +1,23 @@
 ---
 ---
-// This is the Chirpy main stylesheet loader
-// DO NOT add text or front-matter comments above the second --- lines
+
+/*!
+ *  Load the base Chirpy theme
+ */
 
 @import "jekyll-theme-chirpy";
 
-/* ========== Custom overrides ========== */
+/* ==============================
+   Custom styling overrides
+   ============================== */
 
 body {
   font-family: "Inter", sans-serif !important;
-  background-color: #f5f7fb !important;
+  background: #f5f7fb !important;
 }
 
 h1, h2, h3 {
-  color: #004aad !important; /* ENSIIE blue */
+  color: #004aad !important;
 }
 
 a {
@@ -21,5 +25,5 @@ a {
 }
 
 a:hover {
-  color: #54565a; /* SAMOVAR gray */
+  color: #54565a;
 }
