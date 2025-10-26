@@ -1,25 +1,11 @@
 ---
-# Only the theme uses this front matter to trigger SCSS processing.
 ---
+@import "jekyll-theme-chirpy";
 
-@import "jekyll-theme-chirpy"; // import the base theme styles
-
-/* ============================
-   Your custom overrides below
-============================= */
 body {
   font-family: "Inter", sans-serif !important;
-  background-color: #f5f7fb !important;
+  background: #f5f7fb !important;
 }
-
-h1, h2, h3 {
-  color: #004aad !important;   /* ENSIIE blue */
-}
-
-a {
-  color: #004aad;
-}
-
-a:hover {
-  color: #54565a;              /* SAMOVAR grey */
-}
+h1, h2, h3 { color: #004aad !important; }
+a { color: #004aad; }
+a:hover { color: #54565a; }
