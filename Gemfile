@@ -2,11 +2,9 @@ source "https://rubygems.org"
 
 
 
-gem "jekyll", "~> 4.3.2"
-gem "jekyll-theme-chirpy", "~> 7.4.0"
-gem "jekyll-feed"
-gem "jekyll-paginate"
-gem "jekyll-redirect-from"
-gem "jekyll-seo-tag"
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+
 gem "webrick"
 gem "html-proofer", group: :test   # ← add this line
