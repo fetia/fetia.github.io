@@ -11,7 +11,7 @@ plugins:
 page_excerpts: false
 paginate: false
 
-custom_css: assets/css/jekyll-theme-chirpy.scss
+
 
 
   
