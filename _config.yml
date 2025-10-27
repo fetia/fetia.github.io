@@ -7,9 +7,13 @@ plugins:
 
 
 plugins:
-  - jekyll-paginate        # enables pagination (blog posts, archives)
-  - jekyll-redirect-from   # allows page redirects
-  - jekyll-seo-tag         # adds SEO meta tags
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
 
 page_excerpts: false
 paginate: false
