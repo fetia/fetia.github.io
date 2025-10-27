@@ -2,9 +2,6 @@
 # Import the theme
 # The Site Configuration
 theme: jekyll-theme-chirpy
-plugins:
-  - jekyll-include-cache
-
 
 plugins:
   - jekyll-include-cache
