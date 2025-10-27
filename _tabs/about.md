@@ -9,7 +9,7 @@ order: 5
 
 
 I am **Fetia Bannour, PhD**, Maîtresse de conférences at [ensIIE](https://www.ensiie.fr)  
-and permanent researcher within the [SAMOVAR Laboratory](https://samovar.telecom-sudparis.eu)  
+and a permanent researcher within the [SAMOVAR Laboratory](https://samovar.telecom-sudparis.eu)  
 at [Télécom SudParis](https://www.telecom-sudparis.eu) / [Institut Polytechnique de Paris](https://www.ip-paris.fr).
 
 My work focuses on **AI-native orchestration**, **programmable networks**, and **distributed control** for next-generation infrastructures.
@@ -19,7 +19,7 @@ My work focuses on **AI-native orchestration**, **programmable networks**, and *
   *Thesis on distributed SDN control and consistency-aware architectures.*  
 - **Engineering Degree (Master of Science)**, École Polytechnique de Tunisie, 2014  
   *Specialization in networking and telecommunication systems.*  
-- **Preparatory Classes (Mathématiques et Physique)**, Institut Préparatoire aux Études d’Ingénieurs de Nabeul (IPEIN), 2009–2011  
+- **Preparatory Classes (Mathématiques et Physique)**, Institut Préparatoire aux études d'ingénieurs de Tunis (IPEIT), 2009–2011  
 - **Baccalauréat (Mathematics)**, Lycée Pilote de Sousse, 2009  
 
 ---
