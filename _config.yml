@@ -260,19 +260,19 @@ exclude:
 head_scripts:
   - |
     <style>
-      /* ---- Enlarge Sidebar ---- */
+      /* ==== ENLARGED SIDEBAR ==== */
       .sidebar {
-        width: 360px !important; /* was 320px */
+        width: 420px !important; /* wider sidebar */
       }
 
       .main {
-        margin-left: 360px !important;
-        max-width: 950px !important; /* expand content area */
+        margin-left: 420px !important;
+        max-width: 1100px !important; /* more horizontal space for content */
       }
 
       #avatar {
-        width: 150px !important;
-        height: 150px !important;
+        width: 180px !important;
+        height: 180px !important;
         border-radius: 50%;
         object-fit: cover;
       }
@@ -280,13 +280,17 @@ head_scripts:
       .sidebar .site-title,
       .sidebar .site-subtitle {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.3rem !important; /* larger name/title text */
       }
 
-      /* ---- Improve Main Text ---- */
+      .sidebar a {
+        font-size: 1.1rem !important; /* larger links */
+      }
+
+      /* ==== MAIN CONTENT ==== */
       .post-content, .page-content {
-        font-size: 1.15rem !important; /* larger readable font */
-        line-height: 1.85 !important;
+        font-size: 1.25rem !important; /* bigger text */
+        line-height: 1.9 !important;
       }
 
       h1, h2, h3 {
@@ -296,22 +300,23 @@ head_scripts:
 
       .post-content p, .page-content p {
         text-align: justify;
+        margin-bottom: 1.5rem;
       }
 
-      /* ---- Better spacing and layout on large screens ---- */
-      @media (min-width: 1400px) {
+      /* ==== RESPONSIVE BEHAVIOUR ==== */
+      @media (min-width: 1600px) {
         .main {
-          max-width: 1050px !important;
+          max-width: 1200px !important;
         }
       }
 
-      /* ---- Keep sidebar normal on smaller devices ---- */
       @media (max-width: 992px) {
         .sidebar {
           width: 280px !important;
         }
         .main {
           margin-left: 0 !important;
+          max-width: 100% !important;
         }
       }
     </style>
