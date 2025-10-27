@@ -3,21 +3,23 @@
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   <head>
-    {% include head.html %}
-    <!-- Load your custom overrides last so they win -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title | default: "Site" }}
+    </title>
+
+    <!-- Try the theme CSS paths directly (both are safe; missing files won't break the build) -->
+    <link rel="stylesheet" href="{{ '/assets/css/jekyll-theme-chirpy.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Your overrides (compiled from assets/css/custom.scss) -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   </head>
   <body>
-    {% include sidebar.html %}
-
-    <main class="page">
-      {% include topbar.html %}
-      <div class="container">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-    {% include scripts.html %}
+    <div class="container">
+      {{ content }}
+    </div>
   </body>
 </html>
