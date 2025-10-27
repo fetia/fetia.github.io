@@ -1,28 +1,28 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-# --- Core engine ---
+# Core Jekyll engine
 gem "jekyll", "= 4.3.3"
 
-# --- Theme ---
-gem "jekyll-theme-chirpy", "= 7.3.2"
+# Chirpy theme (stable, compatible with Jekyll 4.3)
+gem "jekyll-theme-chirpy", "= 7.3.1"
 
-# --- Jekyll plugins (used in your _config.yml) ---
+# Common Jekyll plugins
 gem "jekyll-paginate"
+gem "jekyll-redirect-from"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
 gem "jekyll-include-cache"
-gem "jekyll-redirect-from"
 
-# --- Silence Ruby 3.4 deprecation warnings ---
+# Fix Ruby 3.4 warnings
 gem "csv", require: false
 gem "base64", require: false
 
-# --- Development helper (needed for local serve) ---
+# Development server for local preview
 group :development do
   gem "webrick", "~> 1.8"
 end
 
-# --- Windows support (safe to keep) ---
+# Optional (for Windows compatibility)
 gem "wdm", "~> 0.1.1", platforms: [:mingw, :x64_mingw, :mswin]
