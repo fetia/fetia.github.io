@@ -1,18 +1,22 @@
 source "https://rubygems.org"
 
-# Lock to a Chirpy version that does NOT use `ignore missing`
-gem "jekyll-theme-chirpy", "7.2.4"
+# Use last version of Chirpy without the "ignore missing" syntax
+gem "jekyll-theme-chirpy", "6.5.3"
 
-# Compatible Jekyll version
+# Match Jekyll that works with it
 gem "jekyll", "~> 4.3.2"
 
-# Required Chirpy dependencies
-gem "jekyll-feed"
+# Required plugins for Chirpy
 gem "jekyll-paginate"
+gem "jekyll-feed"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-include-cache"
 gem "jekyll-redirect-from"
 
-# For Ruby 3.x environments
+# For local development & GitHub Actions runners
 gem "webrick"
+
+# Silence Ruby 3.3+ deprecation warnings
+gem "csv", require: false
+gem "base64", require: false
