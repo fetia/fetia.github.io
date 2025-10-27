@@ -16,6 +16,9 @@ gem "jekyll-redirect-from"
 # For local serving (required since Ruby 3.x)
 gem "webrick"
 
-# To silence Ruby 3.3+ warnings
+# HTML link validator (used in GitHub Actions)
+gem "html-proofer", group: :jekyll_plugins
+
+# Silence Ruby 3.3+ deprecation warnings
 gem "csv", require: false
 gem "base64", require: false
