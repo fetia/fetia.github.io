@@ -4,11 +4,13 @@ source "https://rubygems.org"
 ruby ">= 3.2"
 
 # Core site generator
-gem "jekyll", "~> 4.3.3"
+gem "jekyll", "~> 4.4"
 
 
 # Theme
-gem "jekyll-theme-chirpy", "~> 7.4.0"
+gem "jekyll-theme-chirpy", "~> 7.4"
+gem "jekyll-include-cache", "~> 0.2"
+
 
 # Common plugins you already use
 gem "jekyll-paginate"
