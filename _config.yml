@@ -232,7 +232,7 @@ compress_html:
   clippings: all
   comments: all
   endings: all
-  profile: true
+  profile: false
   blanklines: false
   ignore:
     envs: [development]
