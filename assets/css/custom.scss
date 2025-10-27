@@ -1,15 +1,13 @@
 ---
 ---
-/* Only your tweaks here; no @import statements */
+/* Custom overrides only. No @import here. */
 
-/* Example overrides */
 body {
   font-family: "Inter", sans-serif !important;
   background-color: #f5f7fb !important;
 }
 
-/* Example: tweak sidebar width/color, etc.
-.sidebar {
-  /* your styles */
-}
+/* Add more rules below this line. Keep braces paired. */
+/* Example (keep it commented if you don't need it):
+ .sidebar { max-width: 280px; }
 */
