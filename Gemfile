@@ -8,6 +8,10 @@ gem "jekyll", "~> 4.4", ">= 4.4.1"
 # Use the Chirpy theme as a gem (recommended)
 gem "jekyll-theme-chirpy", "~> 7.4"
 
+
+gem "jekyll-redirect-from", "~> 0.16"
+
+
 # Sass pipeline: Jekyll 4 + Dart Sass (required by newer Chirpy)
 gem "jekyll-sass-converter", "~> 3.1"
 gem "sass-embedded", "~> 1.93"
