@@ -1,24 +1,18 @@
 source "https://rubygems.org"
 
-# ✅ Core Jekyll
-gem "jekyll", "~> 4.3.3"
+# Lock to a Chirpy version that does NOT use `ignore missing`
+gem "jekyll-theme-chirpy", "7.2.4"
 
-# ✅ Stable Chirpy version (works without custom layouts)
-gem "jekyll-theme-chirpy", "~> 7.2.4"
+# Compatible Jekyll version
+gem "jekyll", "~> 4.3.2"
 
-# ✅ Essential plugins
-gem "jekyll-paginate"
+# Required Chirpy dependencies
 gem "jekyll-feed"
-gem "jekyll-sitemap"
+gem "jekyll-paginate"
 gem "jekyll-seo-tag"
-gem "jekyll-redirect-from"
+gem "jekyll-sitemap"
 gem "jekyll-include-cache"
+gem "jekyll-redirect-from"
 
-# ✅ Fixes warnings on Ruby 3.3+
-gem "csv", require: false
-gem "base64", require: false
-
-# ✅ For local development (Jekyll 4.3 needs it)
-group :development do
-  gem "webrick", "~> 1.8"
-end
+# For Ruby 3.x environments
+gem "webrick"
