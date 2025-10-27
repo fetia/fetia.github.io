@@ -3,7 +3,8 @@
 source "https://rubygems.org"
 
 # Main Jekyll engine (compatible version for Chirpy 7.4)
-gem "jekyll", "~> 4.3.3"
+gem "jekyll", "= 4.3.3"
+
 
 # Theme
 gem "jekyll-theme-chirpy", "~> 7.4"
