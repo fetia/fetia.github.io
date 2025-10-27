@@ -262,24 +262,10 @@ head_scripts:
     <style>
       /* Enlarge sidebar */
       .sidebar {
-        width: 320px !important;
-      }
-      .main {
-        margin-left: 320px !important;
-      }
-      #avatar {
-        width: # -------------------------------------------------
-# Custom inline styles
-# -------------------------------------------------
-head_scripts:
-  - |
-    <style>
-      /* Enlarge sidebar */
-      .sidebar {
         width: 360px !important;
       }
       .main {
-        margin-left: 320px !important;
+        margin-left: 360px !important;
       }
       #avatar {
         width: 140px !important;
@@ -293,18 +279,4 @@ head_scripts:
         font-size: 1.1rem;
       }
     </style>
- !important;
-        height: 140px !important;
-        border-radius: 50%;
-        object-fit: cover;
-      }
-      .sidebar .site-title,
-      .sidebar .site-subtitle {
-        text-align: center;
-        font-size: 1.1rem;
-      }
-    </style>
-
-
-
 
