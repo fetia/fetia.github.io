@@ -1,38 +1,15 @@
 ---
 ---
+/* Only your tweaks here; no @import statements */
 
-/* =======================================================
-   Custom color and font overrides for Chirpy theme
-   ======================================================= */
-
-/* Background & text */
+/* Example overrides */
 body {
-  background-color: #f7f9fc !important;
   font-family: "Inter", sans-serif !important;
+  background-color: #f5f7fb !important;
 }
 
-/* Headings */
-h1, h2, h3 {
-  color: #004aad !important;
+/* Example: tweak sidebar width/color, etc.
+.sidebar {
+  /* your styles */
 }
-
-/* Links */
-a {
-  color: #004aad !important;
-}
-
-a:hover {
-  color: #002f6c !important;
-}
-
-/* Sidebar */
-#sidebar {
-  background-color: #eef2f8 !important;
-  border-right: 1px solid #e0e3e9 !important;
-}
-
-/* Footer */
-footer {
-  background-color: #f0f2f6 !important;
-  color: #333 !important;
-}
+*/
