@@ -8,7 +8,7 @@ order: 5
 
 
 
-I am **Fetia Bannour, PhD**, Maîtresse de conférences at [ENSIIE](https://www.ensiie.fr)  
+I am **Fetia Bannour, PhD**, Maîtresse de conférences at [ensIIE](https://www.ensiie.fr)  
 and permanent researcher within the [SAMOVAR Laboratory](https://samovar.telecom-sudparis.eu)  
 at [Télécom SudParis](https://www.telecom-sudparis.eu) / [Institut Polytechnique de Paris](https://www.ip-paris.fr).
 
@@ -32,5 +32,5 @@ My work focuses on **AI-native orchestration**, **programmable networks**, and *
 ---
 
 ## Affiliations
-- **ENSIIE** – Teaching and research in computer networks and distributed systems  
+- **ensIIE** – Teaching and research in computer networks and distributed systems  
 - **SAMOVAR Laboratory**, Télécom SudParis – NeSS (Networks, Systems and Services) team
