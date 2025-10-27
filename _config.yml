@@ -15,6 +15,11 @@ plugins:
 page_excerpts: false
 paginate: false
 
+
+# Sidebar
+profile:
+  enabled: true
+
 # Avatar shown in the sidebar
 avatar: /assets/img/fetia.png
 
