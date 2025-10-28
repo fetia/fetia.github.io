@@ -1,55 +1,60 @@
-<!-- Unified layout and style fix -->
 <style>
   /* === LEFT SIDEBAR === */
   #sidebar {
-    background-color: #e0e0e0 !important; /* light gray sidebar */
-    color: #222222 !important;
-    border-right: none !important; /* seamless transition */
+    background-color: #e0e0e0 !important; /* slightly darker gray sidebar */
+    color: #222 !important;
+    border-right: none !important;
   }
 
   #sidebar a {
-    color: #222222 !important;
+    color: #222 !important;
   }
 
   #sidebar a:hover {
-    color: #000000 !important;
+    color: #000 !important;
     background-color: #e8e8e8 !important;
   }
 
   /* === MAIN BACKGROUND === */
   body {
-    background-color: #ebebeb !important; /* slightly lighter than sidebar */
-    color: #222222 !important;
+    background-color: #f2f2f2 !important; /* lighter gray background */
+    color: #222 !important;
   }
 
-  /* === MAIN CONTENT WIDTH FIX === */
-  main,
-  article,
-  .content {
-    max-width: 1300px !important; /* widen text area */
-    width: 85% !important;
-    margin-left: 320px !important; /* align with sidebar */
+  /* === WIDTH & LAYOUT FIX === */
+  /* allow the main content to fill the available horizontal space */
+  #main-wrapper {
+    justify-content: flex-start !important; /* stop centering */
+  }
+
+  .container,
+  .row {
+    max-width: none !important;
+    width: 100% !important;
+  }
+
+  main.col-12.col-lg-11.col-xl-9 {
+    flex: 1 1 auto !important;
+    width: 95% !important;      /* fill almost the full width */
+    max-width: 1400px !important;
+    margin-left: 320px !important; /* offset for sidebar */
     padding: 40px !important;
   }
 
-  @media (min-width: 1600px) {
-    main,
-    article,
-    .content {
-      max-width: 1500px !important;
-    }
+  /* hide or neutralize the right panel if you don’t need it */
+  #panel-wrapper {
+    display: none !important;
   }
 
-  /* === TEXT & TYPOGRAPHY === */
-  .content p {
+  /* === TYPOGRAPHY === */
+  main p {
     font-size: 1.2rem !important;
     line-height: 1.9 !important;
     text-align: justify;
-    margin-bottom: 1.5rem;
   }
 
   h1, h2, h3 {
-    color: #111111 !important;
+    color: #111 !important;
     font-weight: 600;
     line-height: 1.3;
   }
