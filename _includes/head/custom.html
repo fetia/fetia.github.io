@@ -1,7 +1,10 @@
 <style>
+  /* TEMP: verify load — remove pink after checking */
+  /* body { background-color: pink !important; } */
+
   /* === LEFT SIDEBAR === */
   #sidebar {
-    background-color: #e0e0e0 !important; /* slightly darker gray sidebar */
+    background-color: #e0e0e0 !important;
     color: #222 !important;
     border-right: none !important;
   }
@@ -16,38 +19,34 @@
   }
 
   /* === MAIN BACKGROUND === */
-  body {
-    background-color: #f2f2f2 !important; /* lighter gray background */
+  html, body {
+    background-color: #f3f3f3 !important;
     color: #222 !important;
   }
 
-  /* === WIDTH & LAYOUT FIX === */
-  /* allow the main content to fill the available horizontal space */
-  #main-wrapper {
-    justify-content: flex-start !important; /* stop centering */
-  }
-
-  .container,
-  .row {
-    max-width: none !important;
+  /* === FORCE WIDER MAIN === */
+  #main-wrapper > .container {
+    max-width: 100% !important;
     width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
-  main.col-12.col-lg-11.col-xl-9 {
+  #main-wrapper main.col-12.col-lg-11.col-xl-9 {
     flex: 1 1 auto !important;
-    width: 95% !important;      /* fill almost the full width */
-    max-width: 1400px !important;
-    margin-left: 320px !important; /* offset for sidebar */
-    padding: 40px !important;
+    width: calc(100% - 320px) !important; /* fill space right of sidebar */
+    max-width: none !important;
+    margin-left: 320px !important; /* offset by sidebar width */
+    padding: 2rem 4rem !important;
   }
 
-  /* hide or neutralize the right panel if you don’t need it */
+  /* === OPTIONAL: hide right panel === */
   #panel-wrapper {
     display: none !important;
   }
 
   /* === TYPOGRAPHY === */
-  main p {
+  #main-wrapper p {
     font-size: 1.2rem !important;
     line-height: 1.9 !important;
     text-align: justify;
@@ -57,13 +56,5 @@
     color: #111 !important;
     font-weight: 600;
     line-height: 1.3;
-  }
-
-  a {
-    color: #005fcb !important;
-  }
-
-  a:hover {
-    color: #007fff !important;
   }
 </style>
