@@ -1,71 +1,79 @@
 <style>
-  /* === SIDEBAR === */
-  #sidebar {
+  /* === FORCE SIDEBAR WIDTH === */
+  body #sidebar {
+    width: 420px !important;            /* visibly larger */
     background-color: #e0e0e0 !important;
     color: #222 !important;
     border-right: none !important;
-    width: 360px !important; /* wider sidebar */
+    flex: 0 0 420px !important;          /* prevent shrinking */
   }
 
-  #sidebar a {
+  body #sidebar a {
     color: #222 !important;
+    font-size: 1.05rem !important;
   }
 
-  #sidebar a:hover {
+  body #sidebar a:hover {
     color: #000 !important;
     background-color: #e8e8e8 !important;
   }
 
-  /* === MAIN AREA === */
-  html, body {
-    background-color: #f3f3f3 !important;
-    color: #222 !important;
-    overflow-x: hidden !important;
-  }
-
-  #main-wrapper {
+  /* === EXPAND MAIN CONTENT === */
+  body #main-wrapper {
     display: flex !important;
     justify-content: flex-start !important;
     width: 100% !important;
   }
 
-  /* Override Chirpy layout grid */
-  #main-wrapper > .container,
-  main.col-12.col-lg-11.col-xl-9 {
+  body #main-wrapper > .container,
+  body main.col-12.col-lg-11.col-xl-9 {
     max-width: none !important;
-    width: calc(100% - 360px) !important; /* adapt to new sidebar width */
-    margin-left: 360px !important;
-    padding: 2rem 4rem !important;
+    width: calc(100% - 420px) !important;
+    margin-left: 420px !important;
+    padding: 2.5rem 5rem !important;
     background-color: #fff !important;
   }
 
-  /* Remove the right panel */
-  #panel-wrapper {
+  /* === REMOVE RIGHT PANEL === */
+  body #panel-wrapper {
     display: none !important;
   }
 
-  /* === TYPOGRAPHY === */
-  .page-content,
-  .post-content,
-  #main-wrapper p {
-    font-size: 1.25rem !important;
-    line-height: 1.9 !important;
-    text-align: justify;
-  }
-
-  h1, h2, h3 {
-    font-weight: 600;
-    line-height: 1.3;
+  /* === TYPOGRAPHY OVERRIDES === */
+  body,
+  body .page-content,
+  body .post-content,
+  body #main-wrapper p {
+    font-size: 1.35rem !important;       /* noticeably larger */
+    line-height: 2.1 !important;
+    text-align: justify !important;
     color: #111 !important;
   }
 
-  /* === RESPONSIVE ADJUSTMENTS === */
-  @media (max-width: 992px) {
-    #sidebar {
-      width: 260px !important;
-    }
+  body h1, body h2, body h3 {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
+    color: #000 !important;
+  }
 
-    main.col-12.col-lg-11.col-xl-9 {
+  /* === FULL HEIGHT SIDEBAR === */
+  body #sidebar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100vh !important;
+    overflow-y: auto !important;
+  }
+
+  /* === RESPONSIVE MODE === */
+  @media (max-width: 992px) {
+    body #sidebar {
+      position: relative !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+    body main.col-12.col-lg-11.col-xl-9 {
       margin-left: 0 !important;
       width: 100% !important;
       padding: 1.5rem !important;
