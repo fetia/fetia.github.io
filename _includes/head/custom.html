@@ -1,77 +1,37 @@
 <style>
-  /* === SIDEBAR === */
+  /* === Keep sidebar as it is === */
   #sidebar {
     background-color: #e0e0e0 !important;
     color: #222 !important;
     border-right: none !important;
-    width: 340px !important;
   }
 
-  #sidebar a {
-    color: #222 !important;
+  /* === Improve main readability === */
+  main article,
+  .content {
+    max-width: 950px !important;         /* slightly wider text block */
+    margin: 0 auto !important;           /* center the text block */
+    padding: 2rem !important;
   }
 
-  #sidebar a:hover {
-    color: #000 !important;
-    background-color: #e8e8e8 !important;
-  }
-
-  /* === MAIN WRAPPER & BODY === */
-  html, body {
-    background-color: #f3f3f3 !important;
-    color: #222 !important;
-    overflow-x: hidden !important;
-  }
-
-  #main-wrapper {
-    display: flex !important;
-    justify-content: flex-start !important;
-    width: 100% !important;
-  }
-
-  /* FORCE override of Chirpy’s Bootstrap container */
-  #main-wrapper > .container,
-  main.col-12.col-lg-11.col-xl-9 {
-    max-width: none !important;
-    width: calc(100% - 340px) !important;
-    margin-left: 340px !important;
-    padding: 2rem 4rem !important;
-    background-color: #fefefe !important;
-  }
-
-  /* Completely disable right info panel */
-  #panel-wrapper {
-    display: none !important;
-  }
-
-  /* === TYPOGRAPHY === */
-  .page-content, .post-content, #main-wrapper p {
-    font-size: 1.25rem !important;
-    line-height: 1.9 !important;
+  /* === Typography === */
+  .content p,
+  main p {
+    font-size: 1.25rem !important;       /* bigger text */
+    line-height: 1.9 !important;         /* more airy lines */
     text-align: justify;
   }
 
   h1, h2, h3 {
     font-weight: 600;
     line-height: 1.3;
-    color: #111 !important;
   }
 
-  /* === REMOVE Chirpy’s fixed max width on outer container === */
-  .container-lg, .container-xl {
-    max-width: 100% !important;
-    width: 100% !important;
+  /* Optional: make links stand out a bit more */
+  a {
+    color: #005fcb !important;
   }
-
-  /* === Responsive fallback === */
-  @media (max-width: 992px) {
-    #sidebar {
-      width: 260px !important;
-    }
-    main.col-12.col-lg-11.col-xl-9 {
-      margin-left: 0 !important;
-      width: 100% !important;
-      padding: 1.5rem !important;
-    }
+  a:hover {
+    color: #007fff !important;
   }
 </style>
