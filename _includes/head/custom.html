@@ -4,7 +4,7 @@
     background-color: #e0e0e0 !important;
     color: #222 !important;
     border-right: none !important;
-    width: 340px !important; /* slightly wider for balance */
+    width: 340px !important;
   }
 
   #sidebar a {
@@ -16,68 +16,62 @@
     background-color: #e8e8e8 !important;
   }
 
-  /* === MAIN BACKGROUND === */
+  /* === MAIN WRAPPER & BODY === */
   html, body {
     background-color: #f3f3f3 !important;
     color: #222 !important;
-    overflow-x: hidden !important; /* prevent right blank space scroll */
+    overflow-x: hidden !important;
   }
 
-  /* === MAIN WRAPPER LAYOUT FIX === */
   #main-wrapper {
     display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
+    justify-content: flex-start !important;
     width: 100% !important;
   }
 
-  #main-wrapper > .container {
-    max-width: 100% !important;
-    width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  /* === MAIN CONTENT === */
-  #main-wrapper main.col-12.col-lg-11.col-xl-9 {
-    flex: 1 1 auto !important;
-    width: calc(100% - 340px) !important; /* adjust to sidebar width */
+  /* FORCE override of Chirpy’s Bootstrap container */
+  #main-wrapper > .container,
+  main.col-12.col-lg-11.col-xl-9 {
     max-width: none !important;
+    width: calc(100% - 340px) !important;
     margin-left: 340px !important;
     padding: 2rem 4rem !important;
     background-color: #fefefe !important;
-    box-shadow: 0 0 20px rgba(0,0,0,0.05);
-    border-radius: 8px;
   }
 
-  /* === REMOVE RIGHT PANEL === */
+  /* Completely disable right info panel */
   #panel-wrapper {
     display: none !important;
   }
 
   /* === TYPOGRAPHY === */
-  #main-wrapper p {
-    font-size: 1.2rem !important;
+  .page-content, .post-content, #main-wrapper p {
+    font-size: 1.25rem !important;
     line-height: 1.9 !important;
     text-align: justify;
   }
 
   h1, h2, h3 {
-    color: #111 !important;
     font-weight: 600;
     line-height: 1.3;
+    color: #111 !important;
   }
 
-  /* === RESPONSIVE === */
+  /* === REMOVE Chirpy’s fixed max width on outer container === */
+  .container-lg, .container-xl {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* === Responsive fallback === */
   @media (max-width: 992px) {
     #sidebar {
-      width: 280px !important;
+      width: 260px !important;
     }
-
-    #main-wrapper main.col-12.col-lg-11.col-xl-9 {
+    main.col-12.col-lg-11.col-xl-9 {
       margin-left: 0 !important;
       width: 100% !important;
-      padding: 1rem 2rem !important;
+      padding: 1.5rem !important;
     }
   }
 </style>
