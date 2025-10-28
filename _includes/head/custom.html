@@ -1,12 +1,10 @@
 <style>
-  /* TEMP: verify load — remove pink after checking */
-  /* body { background-color: pink !important; } */
-
-  /* === LEFT SIDEBAR === */
+  /* === SIDEBAR === */
   #sidebar {
     background-color: #e0e0e0 !important;
     color: #222 !important;
     border-right: none !important;
+    width: 340px !important; /* slightly wider for balance */
   }
 
   #sidebar a {
@@ -22,9 +20,17 @@
   html, body {
     background-color: #f3f3f3 !important;
     color: #222 !important;
+    overflow-x: hidden !important; /* prevent right blank space scroll */
   }
 
-  /* === FORCE WIDER MAIN === */
+  /* === MAIN WRAPPER LAYOUT FIX === */
+  #main-wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
   #main-wrapper > .container {
     max-width: 100% !important;
     width: 100% !important;
@@ -32,15 +38,19 @@
     padding-right: 0 !important;
   }
 
+  /* === MAIN CONTENT === */
   #main-wrapper main.col-12.col-lg-11.col-xl-9 {
     flex: 1 1 auto !important;
-    width: calc(100% - 320px) !important; /* fill space right of sidebar */
+    width: calc(100% - 340px) !important; /* adjust to sidebar width */
     max-width: none !important;
-    margin-left: 320px !important; /* offset by sidebar width */
+    margin-left: 340px !important;
     padding: 2rem 4rem !important;
+    background-color: #fefefe !important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    border-radius: 8px;
   }
 
-  /* === OPTIONAL: hide right panel === */
+  /* === REMOVE RIGHT PANEL === */
   #panel-wrapper {
     display: none !important;
   }
@@ -56,5 +66,18 @@
     color: #111 !important;
     font-weight: 600;
     line-height: 1.3;
+  }
+
+  /* === RESPONSIVE === */
+  @media (max-width: 992px) {
+    #sidebar {
+      width: 280px !important;
+    }
+
+    #main-wrapper main.col-12.col-lg-11.col-xl-9 {
+      margin-left: 0 !important;
+      width: 100% !important;
+      padding: 1rem 2rem !important;
+    }
   }
 </style>
