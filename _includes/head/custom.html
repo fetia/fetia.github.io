@@ -1,39 +1,33 @@
 <!-- Unified layout and style fix -->
 <style>
-  /* === LEFT SIDEBAR (avatar area) === */
+  /* === LEFT SIDEBAR === */
   #sidebar {
     background-color: #e0e0e0 !important; /* light gray sidebar */
-    color: #222 !important;
-    border-right: none !important;
+    color: #222222 !important;
+    border-right: none !important; /* seamless transition */
   }
 
   #sidebar a {
-    color: #222 !important;
+    color: #222222 !important;
   }
 
   #sidebar a:hover {
-    color: #000 !important;
+    color: #000000 !important;
     background-color: #e8e8e8 !important;
   }
 
   /* === MAIN BACKGROUND === */
   body {
-    background-color: #ebebeb !important; /* lighter gray background */
-    color: #222 !important;
+    background-color: #ebebeb !important; /* slightly lighter than sidebar */
+    color: #222222 !important;
   }
 
   /* === MAIN CONTENT WIDTH FIX === */
-  /* these selectors cover all bootstrap containers used by Chirpy */
   main,
   article,
-  .container,
-  .container-lg,
-  .row,
-  .col-lg-8,
-  .col-xl-8,
   .content {
-    max-width: 1200px !important;  /* widen main content area */
-    width: 90% !important;
+    max-width: 1300px !important; /* widen text area */
+    width: 85% !important;
     margin-left: 320px !important; /* align with sidebar */
     padding: 40px !important;
   }
@@ -41,7 +35,30 @@
   @media (min-width: 1600px) {
     main,
     article,
-    .container,
-    .col-lg-8,
-    .col-xl-8,
     .content {
+      max-width: 1500px !important;
+    }
+  }
+
+  /* === TEXT & TYPOGRAPHY === */
+  .content p {
+    font-size: 1.2rem !important;
+    line-height: 1.9 !important;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+  }
+
+  h1, h2, h3 {
+    color: #111111 !important;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  a {
+    color: #005fcb !important;
+  }
+
+  a:hover {
+    color: #007fff !important;
+  }
+</style>
