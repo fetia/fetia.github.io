@@ -11,6 +11,8 @@ plugins:
   - jekyll-feed
  
 
+version_tag: 20251029
+
 
 page_excerpts: false
 paginate: false
