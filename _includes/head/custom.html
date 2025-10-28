@@ -1,37 +1,74 @@
 <style>
-  /* === Keep sidebar as it is === */
+  /* === SIDEBAR === */
   #sidebar {
     background-color: #e0e0e0 !important;
     color: #222 !important;
     border-right: none !important;
+    width: 360px !important; /* wider sidebar */
   }
 
-  /* === Improve main readability === */
-  main article,
-  .content {
-    max-width: 950px !important;         /* slightly wider text block */
-    margin: 0 auto !important;           /* center the text block */
-    padding: 2rem !important;
+  #sidebar a {
+    color: #222 !important;
   }
 
-  /* === Typography === */
-  .content p,
-  main p {
-    font-size: 1.25rem !important;       /* bigger text */
-    line-height: 1.9 !important;         /* more airy lines */
+  #sidebar a:hover {
+    color: #000 !important;
+    background-color: #e8e8e8 !important;
+  }
+
+  /* === MAIN AREA === */
+  html, body {
+    background-color: #f3f3f3 !important;
+    color: #222 !important;
+    overflow-x: hidden !important;
+  }
+
+  #main-wrapper {
+    display: flex !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+  }
+
+  /* Override Chirpy layout grid */
+  #main-wrapper > .container,
+  main.col-12.col-lg-11.col-xl-9 {
+    max-width: none !important;
+    width: calc(100% - 360px) !important; /* adapt to new sidebar width */
+    margin-left: 360px !important;
+    padding: 2rem 4rem !important;
+    background-color: #fff !important;
+  }
+
+  /* Remove the right panel */
+  #panel-wrapper {
+    display: none !important;
+  }
+
+  /* === TYPOGRAPHY === */
+  .page-content,
+  .post-content,
+  #main-wrapper p {
+    font-size: 1.25rem !important;
+    line-height: 1.9 !important;
     text-align: justify;
   }
 
   h1, h2, h3 {
     font-weight: 600;
     line-height: 1.3;
+    color: #111 !important;
   }
 
-  /* Optional: make links stand out a bit more */
-  a {
-    color: #005fcb !important;
-  }
-  a:hover {
-    color: #007fff !important;
+  /* === RESPONSIVE ADJUSTMENTS === */
+  @media (max-width: 992px) {
+    #sidebar {
+      width: 260px !important;
+    }
+
+    main.col-12.col-lg-11.col-xl-9 {
+      margin-left: 0 !important;
+      width: 100% !important;
+      padding: 1.5rem !important;
+    }
   }
 </style>
