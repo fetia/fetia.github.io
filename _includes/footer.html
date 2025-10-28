@@ -2,23 +2,40 @@
   /* === LEFT SIDEBAR (avatar area) === */
   #sidebar {
     background-color: #e0e0e0 !important; /* gentle light gray */
-    color: #222222 !important;            /* dark readable text */
-    border-right: none !important;        /* remove dividing line */
-  }
-
-  #sidebar a {
     color: #222222 !important;
+    border-right: none !important;
+    width: 280px !important; /* slightly wider sidebar */
+    padding: 1.8rem 1.5rem !important; /* increase inner padding */
+    font-size: 1.1rem !important; /* larger text */
+    line-height: 1.8 !important;
   }
 
-  #sidebar a:hover {
-    color: #000000 !important;
-    background-color: #e8e8e8 !important; /* soft hover tone */
+  /* Sidebar title and subtitle (your name, tagline) */
+  #sidebar header .site-title {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+  }
+
+  #sidebar header .site-subtitle {
+    font-size: 1rem !important;
+    color: #333333 !important;
+  }
+
+  /* Sidebar navigation links */
+  #sidebar .nav-link {
+    font-size: 1.05rem !important;
+    padding: 0.6rem 0.8rem !important;
+  }
+
+  #sidebar .nav-link:hover {
+    background-color: #e8e8e8 !important;
+    border-radius: 6px;
   }
 
   /* === MAIN CONTENT AREA === */
   body,
   .main {
-    background-color: #ffffff !important; /* pure white background */
+    background-color: #ffffff !important;
     color: #222222 !important;
   }
 
