@@ -9,7 +9,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-redirect-from
+ 
 
 
 page_excerpts: false
