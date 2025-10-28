@@ -257,14 +257,18 @@ exclude:
 head_scripts:
   - |
     <style>
-      /* ==== ENLARGED SIDEBAR ==== */
-      .sidebar {
-        width: 420px !important; /* wider sidebar */
+      /* ==== GENERAL THEME ==== */
+      body {
+        background-color: #181818 !important; /* dark background for entire page */
+        color: #e5e5e5 !important; /* soft light text */
       }
 
-      .main {
-        margin-left: 420px !important;
-        max-width: 1100px !important; /* more horizontal space for content */
+      /* ==== SIDEBAR ==== */
+      .sidebar {
+        width: 420px !important;
+        background-color: #202020 !important; /* dark gray */
+        color: #f5f5f5 !important;
+        border-right: 2px solid #2c2c2c; /* subtle separation */
       }
 
       #avatar {
@@ -272,32 +276,65 @@ head_scripts:
         height: 180px !important;
         border-radius: 50%;
         object-fit: cover;
+        border: 3px solid #444; /* subtle border to fit dark background */
       }
 
       .sidebar .site-title,
       .sidebar .site-subtitle {
         text-align: center;
-        font-size: 1.3rem !important; /* larger name/title text */
+        font-size: 1.3rem !important;
+        color: #fafafa !important;
       }
 
       .sidebar a {
-        font-size: 1.1rem !important; /* larger links */
+        font-size: 1.1rem !important;
+        color: #d0d0d0 !important;
+        text-decoration: none !important;
+        display: block;
+        padding: 6px 10px;
+        border-radius: 6px;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .sidebar a:hover {
+        color: #ffffff !important;
+        background-color: #333 !important;
       }
 
       /* ==== MAIN CONTENT ==== */
+      .main {
+        margin-left: 420px !important;
+        max-width: 1100px !important;
+        background-color: #1f1f1f !important; /* slightly lighter than sidebar */
+        padding: 40px;
+        border-left: 2px solid #2c2c2c;
+      }
+
       .post-content, .page-content {
-        font-size: 1.25rem !important; /* bigger text */
+        font-size: 1.2rem !important;
         line-height: 1.9 !important;
+        color: #e8e8e8 !important;
       }
 
       h1, h2, h3 {
         font-weight: 600;
+        color: #f0f0f0 !important;
         line-height: 1.3;
+        margin-top: 1.5rem;
       }
 
       .post-content p, .page-content p {
         text-align: justify;
         margin-bottom: 1.5rem;
+      }
+
+      /* ==== LINKS INSIDE POSTS ==== */
+      .post-content a, .page-content a {
+        color: #7db8ff !important;
+      }
+
+      .post-content a:hover, .page-content a:hover {
+        color: #a8d1ff !important;
       }
 
       /* ==== RESPONSIVE BEHAVIOUR ==== */
@@ -314,8 +351,10 @@ head_scripts:
         .main {
           margin-left: 0 !important;
           max-width: 100% !important;
+          border-left: none !important;
         }
       }
     </style>
+
 
 
