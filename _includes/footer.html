@@ -40,15 +40,36 @@
     line-height: 1.9 !important;
     color: #222 !important;
 }
-  /* Restore proper heading scaling */
-  #main-wrapper main h1 { font-size: 2rem !important; font-weight: 700 !important; }
-  #main-wrapper main h2 { font-size: 1.75rem !important; font-weight: 650 !important; }
-  #main-wrapper main h3 { font-size: 1.5rem !important; font-weight: 600 !important; }
-  #main-wrapper main h4,
-  #main-wrapper main h5,
-  #main-wrapper main h6 {
-    font-size: 1.25rem !important;
-    font-weight: 600 !important;
+/* === Restore heading hierarchy (stronger specificity) === */
+  #main-wrapper main h1,
+  #main-wrapper .post-content h1 {
+  font-size: 2.4rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1.2rem !important;
 }
-  
+
+ #main-wrapper main h2,
+ #main-wrapper .post-content h2 {
+  font-size: 2rem !important;      /* visibly larger */
+  font-weight: 650 !important;
+  margin-bottom: 1rem !important;
+}
+
+#main-wrapper main h3,
+#main-wrapper .post-content h3 {
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.8rem !important;
+}
+
+#main-wrapper main h4,
+#main-wrapper main h5,
+#main-wrapper main h6,
+#main-wrapper .post-content h4,
+#main-wrapper .post-content h5,
+#main-wrapper .post-content h6 {
+  font-size: 1.35rem !important;
+  font-weight: 600 !important;
+}
+ 
 </style>
