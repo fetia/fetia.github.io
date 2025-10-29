@@ -28,24 +28,29 @@
     padding: 2rem !important;
   }
 
-  /* === Unify ONLY the body text in main content === */
+  /* === Unify ONLY running text in main content === */
   #main-wrapper main p,
-  #main-wrapper main li,
+  #main-wrapper main ul li,
+  #main-wrapper main ol li,
   #main-wrapper main span,
-  #main-wrapper main div:not([class*="heading"]) {
+  #main-wrapper main strong,
+  #main-wrapper main em {
     font-size: 1.25rem !important;
     line-height: 1.9 !important;
     color: #222 !important;
   }
 
-  /* Ensure headings stay as theme default */
+  /* Keep all headings (titles, subtitles) as theme default */
   #main-wrapper main h1,
   #main-wrapper main h2,
   #main-wrapper main h3,
   #main-wrapper main h4,
   #main-wrapper main h5,
   #main-wrapper main h6 {
-    font-family: inherit !important;
+    font-size: inherit !important; /* don’t override Chirpy scaling */
     font-weight: 600 !important;
-  } but subtitlies have changed size:/
+    line-height: 1.3 !important;
+  }
+</style>
+
 </style>
