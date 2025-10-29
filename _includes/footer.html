@@ -38,14 +38,27 @@
     text-align: justify;
   }
   
-   /* === Unify only main text font === */
+  /* === Unify ONLY the body text in main content === */
   #main-wrapper main p,
   #main-wrapper main li,
   #main-wrapper main span,
-  #main-wrapper main div {
-    font-size: 1.2rem !important;
+  #main-wrapper main div:not([class*="heading"]) {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.25rem !important;
     line-height: 1.9 !important;
     color: #222 !important;
-    text-align: justify;
   }
+
+  /* Ensure headings stay as theme default */
+  #main-wrapper main h1,
+  #main-wrapper main h2,
+  #main-wrapper main h3,
+  #main-wrapper main h4,
+  #main-wrapper main h5,
+  #main-wrapper main h6 {
+    font-family: inherit !important;
+    font-weight: 600 !important;
+  }
+</style>
+
 </style>
