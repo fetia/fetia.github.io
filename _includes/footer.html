@@ -1,43 +1,37 @@
 <style>
-  /* === DÉCALER LE TOPBAR À DROITE POUR NE PAS CHEVAUCHER LA SIDEBAR === */
-  #topbar {
-    margin-left: 200px !important;        /* décale selon la largeur actuelle de la sidebar */
-    width: calc(100% - 200px) !important; /* ajuste la largeur totale */
-    background-color: #f8f8f8 !important; /* léger fond clair (optionnel) */
-    border-bottom: 1px solid #ddd !important;
-    position: relative !important;
-    z-index: 1000 !important;
-  }
-  /* === POUR AJUSTER LE CONTENU DU TOPBAR (HOME, WELCOME, SEARCH...) === */
-  #topbar nav#breadcrumb span {
-    font-size: 1.2rem !important;
-    font-weight: 500;
-    margin-left: 0.5rem;
-  }
-  #topbar #topbar-title {
-    font-size: 1.2rem !important;
-    color: #333 !important;
-  }
-  /* === MAIN CONTENT (ajuster en fonction de la nouvelle largeur) === */
-  #main-wrapper main.col-12.col-lg-11.col-xl-9 {
-    flex: 1 1 auto !important;
-    width: calc(100% - 340px) !important;  /* ✅ compenser la nouvelle largeur */
-    margin-left: 340px !important;
-    text-align: left !important;
-    padding: 2rem 2.5rem !important;
+  /* === Keep sidebar as it is === */
+  #sidebar {
+    background-color: #e0e0e0 !important;
+    color: #222 !important;
+    border-right: none !important;
   }
 
-  /* === GLOBAL STYLES === */
-  body,
-  .main {
-    background-color: #ffffff !important;
-    color: #222 !important;
-    font-size: 1.3rem !important;          /* un peu plus grand */
-    line-height: 2 !important;
+  /* === Improve main readability === */
+  main article,
+  .content {
+    max-width: 950px !important;         /* slightly wider text block */
+    margin: 0 auto !important;           /* center the text block */
+    padding: 2rem !important;
+  }
+
+  /* === Typography === */
+  .content p,
+  main p {
+    font-size: 1.25rem !important;       /* bigger text */
+    line-height: 1.9 !important;         /* more airy lines */
+    text-align: justify;
   }
 
   h1, h2, h3 {
-    color: #111 !important;
-    text-align: left !important;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  /* Optional: make links stand out a bit more */
+  a {
+    color: #005fcb !important;
+  }
+  a:hover {
+    color: #007fff !important;
   }
 </style>
