@@ -1,4 +1,18 @@
 <style>
+  /* === DÉCALER LA BARRE DE NAVIGATION HORIZONTALE === */
+  nav#tabs,
+  .nav.tabs,
+  .tabs {
+    margin-left: 360px !important;  /* décalage correspondant à la largeur de la sidebar */
+    padding-left: 1rem !important;  /* petit espace interne pour respirer */
+  }
+
+  /* === SI ELLE EST EN POSITION FIXE, AJOUTE AUSSI : === */
+  header.navbar {
+    left: 340px !important;  /* même valeur que ta sidebar */
+    width: calc(100% - 340px) !important;
+  }
+  
   /* === LEFT SIDEBAR (agrandie) === */
   #sidebar {
     background-color: #e0e0e0 !important;
