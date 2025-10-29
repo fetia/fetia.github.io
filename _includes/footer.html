@@ -1,35 +1,23 @@
 <style>
-  /* === DÉCALER LA BARRE DE NAVIGATION HORIZONTALE === */
-  nav#tabs,
-  .nav.tabs,
-  .tabs {
-    margin-left: 360px !important;  /* décalage correspondant à la largeur de la sidebar */
-    padding-left: 1rem !important;  /* petit espace interne pour respirer */
+  /* === DÉCALER LE TOPBAR À DROITE POUR NE PAS CHEVAUCHER LA SIDEBAR === */
+  #topbar {
+    margin-left: 340px !important;        /* décale selon la largeur actuelle de la sidebar */
+    width: calc(100% - 340px) !important; /* ajuste la largeur totale */
+    background-color: #f8f8f8 !important; /* léger fond clair (optionnel) */
+    border-bottom: 1px solid #ddd !important;
+    position: relative !important;
+    z-index: 1000 !important;
   }
-
-  /* === SI ELLE EST EN POSITION FIXE, AJOUTE AUSSI : === */
-  header.navbar {
-    left: 340px !important;  /* même valeur que ta sidebar */
-    width: calc(100% - 340px) !important;
+  /* === POUR AJUSTER LE CONTENU DU TOPBAR (HOME, WELCOME, SEARCH...) === */
+  #topbar nav#breadcrumb span {
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    margin-left: 0.5rem;
   }
-  
-  /* === LEFT SIDEBAR (agrandie) === */
-  #sidebar {
-    background-color: #e0e0e0 !important;
-    color: #222 !important;
-    width: 340px !important;              /* ✅ élargir la barre */
-    padding: 2rem 1.8rem !important;
-    font-size: 1.2rem !important;         /* texte légèrement plus grand */
-    line-height: 1.9 !important;
+  #topbar #topbar-title {
+    font-size: 1.2rem !important;
+    color: #333 !important;
   }
-
-  /* === MAIN WRAPPER === */
-  #main-wrapper > .container {
-    max-width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
   /* === MAIN CONTENT (ajuster en fonction de la nouvelle largeur) === */
   #main-wrapper main.col-12.col-lg-11.col-xl-9 {
     flex: 1 1 auto !important;
