@@ -1,56 +1,43 @@
 <style>
-  /* === LEFT SIDEBAR === */
+  /* === ALIGN PAGE NAVIGATION BAR (tabs) CLOSER TO SIDEBAR === */
+  #main-wrapper nav.tabs {
+    margin-left: -1.5rem !important;  /* shift left */
+  }
+
+  /* === KEEP SIDEBAR + MAIN STYLING FROM EARLIER === */
   #sidebar {
     background-color: #e0e0e0 !important;
     color: #222 !important;
-    width: 320px !important;
+    width: 310 px !important;
     padding: 1.8rem 1.5rem !important;
-    font-size: 1.15rem !important;  /* slightly larger sidebar text */
+    font-size: 1.15rem !important;
     line-height: 1.9 !important;
   }
 
-  /* === MAIN CONTENT AREA === */
   #main-wrapper > .container {
-    max-width: 100% !important;          /* full width, minimal margins */
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   #main-wrapper main.col-12.col-lg-11.col-xl-9 {
     flex: 1 1 auto !important;
-    width: calc(100% - 280px) !important; /* fill all right space */
-    max-width: none !important;
-    margin-left: 100px !important;
-    padding: 2rem 3rem !important;
+    width: calc(100% - 280px) !important;
+    margin-left: 280px !important;
+    text-align: left !important;
+    padding: 2rem 2.5rem !important;
   }
 
   body,
   .main {
     background-color: #ffffff !important;
     color: #222 !important;
-    font-size: 4rem !important;   /* noticeably larger body text */
+    font-size: 1.25rem !important;
     line-height: 2 !important;
   }
 
-  /* === HEADINGS === */
-  h1 {
-    font-size: 2.2rem !important;
-  }
-
-  h2 {
-    font-size: 1.7rem !important;
-  }
-
-  h3 {
-    font-size: 1.4rem !important;
-  }
-
-  /* === LINKS === */
-  a {
-    color: #005fcb !important;
-  }
-
-  a:hover {
-    color: #007fff !important;
+  h1, h2, h3 {
+    color: #111 !important;
+    text-align: left !important;
   }
 </style>
