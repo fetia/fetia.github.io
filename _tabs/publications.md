@@ -9,8 +9,6 @@ order: 3
 This page lists a selection of my peer-reviewed journal articles, conference papers, and my 2023 Wiley book on SDN, distributed control, and AI-native orchestration.  
 For the full and continuously updated list, please visit:  
 [Google Scholar](https://scholar.google.com/citations?user=XIVmhMcAAAAJ)  
-and  
-[ResearchGate](https://www.researchgate.net/profile/Fetia-Bannour).
 
 ---
 
@@ -65,6 +63,4 @@ and
 
 📖 **Complete list available on:**  
 - [Google Scholar](https://scholar.google.com/citations?user=XIVmhMcAAAAJ)  
-- [ResearchGate](https://www.researchgate.net/profile/Fetia-Bannour)
-
 ---
