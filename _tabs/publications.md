@@ -14,17 +14,21 @@ and
 
 ---
 
-- **R. Sahraoui, F. Bannour, O. Houidi, B. Jouaber**,  
+- D. Houatra, I. Siaud, M. Boujelben, J.-P. Javaudin, A. Shehata, R. Ojeda, N. Schram, B. Jouaber, **F. Bannour**,  
+  *Exploiting the Synergies of WLAN and Cellular Networks within the Wi-FIP Project*,  
+  ISNCC – International Symposium on Networks, Computers and Communications, 2025.
+
+- R. Sahraoui, **F. Bannour**, O. Houidi, B. Jouaber,  
   *An Intelligent End-to-End Network Slicing Framework Using Transformer-Enhanced Deep Reinforcement Learning*,  
   Conference Paper, June 2025.
 
-- **R. Sahraoui, O. Houidi, F. Bannour**,  
+- R. Sahraoui, O. Houidi, **F. Bannour**,  
   *Energy-Aware VNF-FG Placement with Transformer-Based Deep Reinforcement Learning*,  
-  **IEEE/IFIP NOMS – Network Operations and Management Symposium**, 2024.
+  IEEE/IFIP NOMS – Network Operations and Management Symposium, 2024.
 
-- **L. Slim, F. Bannour**,  
+- L. Slim, **F. Bannour**,  
   *Hierarchical Multi-Agent Deep Reinforcement Learning with an Attention-Based Graph Matching Approach for Multi-Domain VNF-FG Embedding*,  
-  **IEEE Global Communications Conference (GLOBECOM)**, 2023.
+  IEEE Global Communications Conference (GLOBECOM), 2023.
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Software-Defined Networking 2: Extending SDN Control to Large-Scale Networks*,  
@@ -33,29 +37,29 @@ and
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Adaptive Distributed SDN Controllers: Application to Content-Centric Delivery Networks*,  
-  **Computer Networks**, vol. 180, 107382, June 2020.  
+  Computer Networks, vol. 180, 107382, June 2020.  
   [DOI: 10.1016/j.comnet.2020.107382](https://doi.org/10.1016/j.comnet.2020.107382)
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Adaptive, Quorum-Inspired SLA-Aware Consistency for Distributed SDN Controllers*,  
-  **IEEE International Conference on Communications (ICC)**, 2019.
+  IEEE International Conference on Communications (ICC), 2019.
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Adaptive State Consistency for Distributed ONOS Controllers*,  
-  **IEEE International Conference on Network Softwarization (NetSoft)**, 2018.
+  IEEE International Conference on Network Softwarization (NetSoft), 2018.
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Distributed SDN Control: Survey, Taxonomy and Challenges*,  
-  **IEEE Communications Surveys & Tutorials**, 20(1): 333–354, 2017.  
+  IEEE Communications Surveys & Tutorials, 20(1): 333–354, 2017.  
   [DOI: 10.1109/COMST.2017.2787480](https://doi.org/10.1109/COMST.2017.2787480)
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Scalability and Reliability-Aware SDN Controller Placement Strategies*,  
-  **IEEE Global Communications Conference (GLOBECOM)**, 2017.
+  IEEE Global Communications Conference (GLOBECOM), 2017.
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Distributed Software-Defined Networking Control: Review and Perspective*,  
-  **IEEE Conference on Standards for Communications and Networking (CSCN)**, 2016.
+  IEEE Conference on Standards for Communications and Networking (CSCN), 2016.
 
 ---
 
