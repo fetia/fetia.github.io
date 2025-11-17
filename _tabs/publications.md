@@ -67,10 +67,6 @@ This page lists a selection of my peer-reviewed journal articles, conference pap
   *Scalability and Reliability-Aware SDN Controller Placement Strategies*,  
   IEEE Global Communications Conference (GLOBECOM), 2017.
 
-- **F. Bannour**, S. Souihi, A. Mellouk,  
-  *Distributed Software-Defined Networking Control: Review and Perspective*,  
-  IEEE Conference on Standards for Communications and Networking (CSCN), 2016.
-
 ---
 
 📖 **Complete list available on:**  
