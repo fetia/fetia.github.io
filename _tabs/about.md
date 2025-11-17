@@ -16,7 +16,7 @@ My work focuses on **AI-native orchestration**, **programmable networks**, and *
 
 ## Academic Background
 - **PhD in Computer Networks**, Université Paris-Est, 2019  
-  *Thesis on distributed SDN control and consistency-aware architectures.*  
+  *Thesis on distributed SDN control and consistency-aware control architectures.*  
 - **Engineering Degree (Master of Science)**, École Polytechnique de Tunisie, 2014  
   *Specialization in networking and telecommunication systems.*  
 - **Preparatory Classes (Mathématiques et Physique)**, Institut Préparatoire aux études d'ingénieurs de Tunis (IPEIT), 2009–2011  
