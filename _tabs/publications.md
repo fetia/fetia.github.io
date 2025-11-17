@@ -46,7 +46,10 @@ This page lists a selection of my peer-reviewed journal articles, conference pap
   *Adaptive Distributed SDN Controllers: Application to Content-Centric Delivery Networks*,  
   Computer Networks, vol. 180, 107382, June 2020.  
   
-
+- **F. Bannour**,  
+  *Extending SDN Control to Large-Scale Networks: Taxonomy, Challenges and Solutions*,  
+  PhD Dissertation, Université Paris-Est, 2019.
+  
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Adaptive, Quorum-Inspired SLA-Aware Consistency for Distributed SDN Controllers*,  
   IEEE International Conference on Communications (ICC), 2019.
@@ -54,10 +57,6 @@ This page lists a selection of my peer-reviewed journal articles, conference pap
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Adaptive State Consistency for Distributed ONOS Controllers*,  
   IEEE International Conference on Network Softwarization (NetSoft), 2018.
-
-- **F. Bannour**,  
-  *Extending SDN Control to Large-Scale Networks: Taxonomy, Challenges and Solutions*,  
-  PhD Dissertation, Université Paris-Est, 2019.
   
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Distributed SDN Control: Survey, Taxonomy and Challenges*,  
