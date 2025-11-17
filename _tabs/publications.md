@@ -28,9 +28,20 @@ For the full and continuously updated list, please visit:
   *Hierarchical Multi-Agent Deep Reinforcement Learning with an Attention-Based Graph Matching Approach for Multi-Domain VNF-FG Embedding*,  
   IEEE Global Communications Conference (GLOBECOM), 2023.
 
+
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Software-Defined Networking 2: Extending SDN Control to Large-Scale Networks*,  
   ISTE Press – Wiley, 2023.  
+
+
+- **F. Bannour**, S. Dumbrava, A. Danduran-Lembezat,  
+  *GOX: Towards a Scalable Graph Database-Driven SDN Controller*,  
+  IEEE International Conference on Network Softwarization (NetSoft), 2022.
+
+- **F. Bannour**, S. Dumbrava, D. Lu,  
+  *A Flexible GraphQL Northbound API for Intent-Based SDN Applications*,  
+  IEEE/IFIP Network Operations and Management Symposium (NOMS), 2022.
+
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Adaptive Distributed SDN Controllers: Application to Content-Centric Delivery Networks*,  
@@ -45,6 +56,10 @@ For the full and continuously updated list, please visit:
   *Adaptive State Consistency for Distributed ONOS Controllers*,  
   IEEE International Conference on Network Softwarization (NetSoft), 2018.
 
+- **F. Bannour**,  
+  *Extending SDN Control to Large-Scale Networks: Taxonomy, Challenges and Solutions*,  
+  PhD Dissertation, Université Paris-Est, 2019.
+  
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Distributed SDN Control: Survey, Taxonomy and Challenges*,  
   IEEE Communications Surveys & Tutorials, 20(1): 333–354, 2017.  
