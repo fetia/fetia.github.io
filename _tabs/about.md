@@ -27,7 +27,7 @@ My work focuses on **AI-native orchestration**, **programmable networks**, and *
 ## Contact
 📧 **fetia.bannour [@] ensiie.fr**  
 🏫 ensIIE – 1 Square de la Résistance, 91025 Évry, France  
-🔗 [Google Scholar](https://scholar.google.com/citations?user=XIVmhMcAAAAJ) | [ResearchGate](https://www.researchgate.net/profile/Fetia-Bannour) | [GitHub](https://github.com/fetia) | [LinkedIn](#)
+🔗 [LinkedIn](https://www.linkedin.com/in/fetiabannour/?originalSubdomain=fr) · [Google Scholar](https://scholar.google.com/citations?user=XIVmhMcAAAAJ&hl=en)
 
 ---
 
