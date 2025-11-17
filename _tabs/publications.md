@@ -31,12 +31,11 @@ For the full and continuously updated list, please visit:
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Software-Defined Networking 2: Extending SDN Control to Large-Scale Networks*,  
   ISTE Press – Wiley, 2023.  
-  [Publisher link](https://onlinelibrary.wiley.com/doi/book/10.1002/9781394182498)
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Adaptive Distributed SDN Controllers: Application to Content-Centric Delivery Networks*,  
   Computer Networks, vol. 180, 107382, June 2020.  
-  [DOI: 10.1016/j.comnet.2020.107382](https://doi.org/10.1016/j.comnet.2020.107382)
+  
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Adaptive, Quorum-Inspired SLA-Aware Consistency for Distributed SDN Controllers*,  
@@ -49,7 +48,6 @@ For the full and continuously updated list, please visit:
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Distributed SDN Control: Survey, Taxonomy and Challenges*,  
   IEEE Communications Surveys & Tutorials, 20(1): 333–354, 2017.  
-  [DOI: 10.1109/COMST.2017.2787480](https://doi.org/10.1109/COMST.2017.2787480)
 
 - **F. Bannour**, S. Souihi, A. Mellouk,  
   *Scalability and Reliability-Aware SDN Controller Placement Strategies*,  
