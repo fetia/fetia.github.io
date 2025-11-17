@@ -6,8 +6,7 @@ permalink: /publications/
 order: 3
 ---
 
-This page lists a selection of my peer-reviewed journal articles, conference papers, and books on SDN, distributed control, and AI-native orchestration for autonomous next-generation networks.  
-For the full and continuously updated list, please visit:  
+This page lists a selection of my peer-reviewed journal articles, conference papers, and books on SDN, distributed control, and AI-native orchestration for autonomous next-generation networks. For the full and continuously updated list, please visit:  
 [Google Scholar](https://scholar.google.com/citations?user=XIVmhMcAAAAJ)  
 
 ---
