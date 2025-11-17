@@ -15,7 +15,7 @@ at [Télécom SudParis](https://www.telecom-sudparis.eu) / [Institut Polytechniq
 My work focuses on **AI-native orchestration**, **programmable networks**, and **distributed control** for next-generation infrastructures.
 
 ## Academic Background
-- **PhD in Computer Networks**, Université Paris-Est Créteil (UPEC), 2019  
+- **PhD in Computer Networks**, Université Paris-Est, 2019  
   *Thesis on distributed SDN control and consistency-aware architectures.*  
 - **Engineering Degree (Master of Science)**, École Polytechnique de Tunisie, 2014  
   *Specialization in networking and telecommunication systems.*  
