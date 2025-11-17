@@ -8,9 +8,7 @@ order: 2
 
 
 
-My research focuses on the design of **intelligent and adaptive control architectures** for programmable networks.  
-I study how artificial intelligence can enhance the scalability, autonomy, and efficiency of future communication infrastructures.  
-The overarching goal is to achieve **automated, energy-efficient, and policy-aware orchestration** across multi-domain and multi-technology environments.
+My research focuses on the design of **intelligent and adaptive control architectures** for programmable networks. I study how artificial intelligence can enhance the scalability, autonomy, and efficiency of future communication infrastructures. The overarching goal is to achieve **automated, energy-efficient, and policy-aware orchestration** across multi-domain and multi-technology environments.
 
 ---
 
