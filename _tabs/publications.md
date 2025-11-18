@@ -69,5 +69,5 @@ This page lists a selection of my peer-reviewed journal articles, conference pap
 ---
 
 📖 **Complete list available on:**  
-- [Google Scholar](https://scholar.google.com/citations?user=XIVmhMcAAAAJ)  
+   [Google Scholar](https://scholar.google.com/citations?user=XIVmhMcAAAAJ)  
 ---
