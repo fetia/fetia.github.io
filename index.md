@@ -7,7 +7,7 @@ permalink: /
 
 
 
-I am **Fetia Bannour, PhD**, Maîtresse de conférences at [ensIIE](https://www.ensiie.fr)  
+I am **Fetia Bannour, PhD**, Associate professor (Maîtresse de conférences) at [ensIIE](https://www.ensiie.fr)  
 and a permanent researcher within the [SAMOVAR Laboratory](https://samovar.telecom-sudparis.eu)  
 at [Télécom SudParis](https://www.telecom-sudparis.eu) / [Institut Polytechnique de Paris](https://www.ip-paris.fr).
 
